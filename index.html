@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESSENTIAL · Estudio Floral</title>
+  <meta name="description" content="Diseñamos emociones en forma de flores. Arreglos florales de autor, eventos, bodas y suscripciones florales.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <!-- ===== CURSOR CUSTOM ===== -->
+  <div class="cursor-punto" id="cursor-punto"></div>
+  <div class="cursor-aura" id="cursor-aura"></div>
+
+  <!-- ===== PANTALLA DE CARGA ===== -->
+  <div id="pantalla-carga" class="pantalla-carga">
+    <div class="carga-wrap">
+      <div class="carga-monograma">
+        <img src="img/logo.png" alt="ESSENTIAL" class="carga-logo">
+      </div>
+      <div class="carga-barra">
+        <span class="carga-barra-progreso" id="carga-barra-progreso"></span>
+      </div>
+      <p class="carga-texto">ESSENTIAL · estudio floral</p>
+    </div>
+  </div>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <nav id="nav" class="nav">
+    <div class="nav-cont">
+      <a href="#hero" class="nav-marca">
+        <img src="img/logo.png" alt="ESSENTIAL" class="nav-marca-logo">
+        <span class="nav-marca-texto">
+          <span class="nm-1">ESSENTIAL</span>
+          <span class="nm-2">estudio floral</span>
+        </span>
+      </a>
+      <ul class="nav-enlaces" id="nav-enlaces">
+        <li><a href="#manifiesto">Manifiesto</a></li>
+        <li><a href="#catalogo">Arreglos</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#suscripcion">Suscripción</a></li>
+        <li><a href="#estudio">Estudio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <div class="nav-der">
+        <a href="#contacto" class="btn-cotizar">Cotizar por DM</a>
+        <button class="hamburguesa" id="hamburguesa" aria-label="Menú">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="hero">
+    <div class="hero-foto" id="hero-foto">
+      <img src="img/3.png" alt="Arreglo floral ESSENTIAL">
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-contenido">
+      <div class="hero-pretitulo">
+        <span class="hero-linea-orn"></span>
+        <span>Estudio floral · México</span>
+        <span class="hero-linea-orn"></span>
+      </div>
+      <h1 class="hero-titulo">
+        <span class="hero-palabra">Diseñamos</span>
+        <span class="hero-palabra italic">emociones</span>
+        <span class="hero-palabra">en forma</span>
+        <span class="hero-palabra italic">de flores</span>
+      </h1>
+      <p class="hero-sub">Arreglos de autor, eventos y suscripciones florales pensados como pequeñas obras efímeras.</p>
+      <div class="hero-ctas">
+        <a href="#catalogo" class="btn-primario">Ver el catálogo</a>
+        <a href="#contacto" class="btn-secundario">
+          <span>Hacer un pedido</span>
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-marquesina">
+      <div class="marquesina-pista">
+        <span>Ramos de autor</span><span class="marq-orn">✦</span>
+        <span>Centros de mesa</span><span class="marq-orn">✦</span>
+        <span>Bodas</span><span class="marq-orn">✦</span>
+        <span>XV años</span><span class="marq-orn">✦</span>
+        <span>Eventos corporativos</span><span class="marq-orn">✦</span>
+        <span>Suscripción floral</span><span class="marq-orn">✦</span>
+        <span>Ramos de autor</span><span class="marq-orn">✦</span>
+        <span>Centros de mesa</span><span class="marq-orn">✦</span>
+        <span>Bodas</span><span class="marq-orn">✦</span>
+        <span>XV años</span><span class="marq-orn">✦</span>
+        <span>Eventos corporativos</span><span class="marq-orn">✦</span>
+        <span>Suscripción floral</span><span class="marq-orn">✦</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MANIFIESTO ===== -->
+  <section id="manifiesto" class="manifiesto">
+    <div class="manif-encabezado">
+      <span class="seccion-num">01 — Manifiesto</span>
+      <h2 class="seccion-titulo">
+        Cada flor cuenta <em>algo</em>.<br>
+        Nosotros la <em>escuchamos</em>.
+      </h2>
+    </div>
+
+    <div class="manif-grid">
+      <div class="manif-texto">
+        <p class="manif-parr fade-up">
+          <span class="manif-letra">E</span>n ESSENTIAL no vendemos ramos: traducimos momentos. Una disculpa, una celebración, un "te extraño", un "felicidades", un "estoy aquí". Cada arreglo nace de una conversación, una intención, un sentimiento que merece volverse algo tangible.
+        </p>
+        <p class="manif-parr fade-up">
+          Trabajamos con flor de temporada, seleccionada a mano. Composiciones desestructuradas, paletas pensadas como pinturas, follajes vivos. Lo que sale del estudio nunca es genérico.
+        </p>
+        <div class="manif-firma fade-up">
+          <span class="manif-linea-firma"></span>
+          <em>— Estudio ESSENTIAL</em>
+        </div>
+      </div>
+
+      <div class="manif-pilares">
+        <div class="pilar fade-up">
+          <span class="pilar-num">i.</span>
+          <h3>Diseño de autor</h3>
+          <p>Cada pieza es única. No replicamos catálogo, interpretamos la ocasión.</p>
+        </div>
+        <div class="pilar fade-up">
+          <span class="pilar-num">ii.</span>
+          <h3>Flor seleccionada</h3>
+          <p>Importada y local. Frescura confirmada el mismo día del montaje.</p>
+        </div>
+        <div class="pilar fade-up">
+          <span class="pilar-num">iii.</span>
+          <h3>Empaque cuidado</h3>
+          <p>Papel, listón y caja firmados ESSENTIAL. El regalo empieza al abrir.</p>
+        </div>
+        <div class="pilar fade-up">
+          <span class="pilar-num">iv.</span>
+          <h3>Entrega impecable</h3>
+          <p>Coordinación al minuto. La emoción llega en su mejor momento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CATÁLOGO ===== -->
+  <section id="catalogo" class="catalogo">
+    <div class="cat-encabezado">
+      <span class="seccion-num">02 — Arreglos</span>
+      <h2 class="seccion-titulo">Una <em>obra</em> distinta<br>cada vez.</h2>
+      <p class="cat-intro">Cada arreglo se cotiza por DM según paleta, tamaño y ocasión. Estos son los formatos más solicitados del estudio.</p>
+    </div>
+
+    <div class="cat-grid">
+      <article class="cat-item cat-grande">
+        <div class="cat-foto">
+          <img src="img/1.png" alt="Arreglo romántico con rosas rojas">
+        </div>
+        <div class="cat-info">
+          <span class="cat-tag">01 / Edición Romántica</span>
+          <h3>Romance</h3>
+          <p>Rosas rojas, ranúnculo, hortensia seca y follaje. Para declaraciones, aniversarios y noches importantes.</p>
+          <a href="#contacto" class="cat-link">Cotizar por DM
+            <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="cat-item">
+        <div class="cat-foto">
+          <img src="img/3.png" alt="Arreglo pastel con tulipanes">
+        </div>
+        <div class="cat-info">
+          <span class="cat-tag">02 / Edición Pastel</span>
+          <h3>Jardín</h3>
+          <p>Garden roses, tulipanes, amaranto colgante. Composición editorial para regalo o decoración.</p>
+          <a href="#contacto" class="cat-link">Cotizar por DM
+            <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="cat-item">
+        <div class="cat-foto">
+          <img src="img/4.png" alt="Tulipanes en vasos de vidrio">
+        </div>
+        <div class="cat-info">
+          <span class="cat-tag">03 / Edición Mínima</span>
+          <h3>Susurro</h3>
+          <p>Tulipanes parrot en vidrio. Para quien entiende que menos también emociona.</p>
+          <a href="#contacto" class="cat-link">Cotizar por DM
+            <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="cat-item cat-grande">
+        <div class="cat-foto">
+          <img src="img/2.png" alt="Ramo en bolsa ESSENTIAL">
+        </div>
+        <div class="cat-info">
+          <span class="cat-tag">04 / Edición Signature</span>
+          <h3>Ramo ESSENTIAL</h3>
+          <p>Nuestro formato firma: ramo envuelto en papel mate, listón de seda y bolsa branded para entrega ceremoniosa.</p>
+          <a href="#contacto" class="cat-link">Cotizar por DM
+            <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+      </article>
+    </div>
+
+    <p class="cat-pie">
+      ¿Buscas algo distinto? <a href="#contacto">Cuéntanos la ocasión</a> y lo diseñamos contigo.
+    </p>
+  </section>
+
+  <!-- ===== EVENTOS ===== -->
+  <section id="eventos" class="eventos">
+    <div class="ev-paralax" data-paralax></div>
+
+    <div class="ev-encabezado">
+      <span class="seccion-num claro">03 — Eventos</span>
+      <h2 class="seccion-titulo claro">
+        Ambientación floral<br>
+        para <em>momentos</em><br>
+        que no se repiten.
+      </h2>
+    </div>
+
+    <div class="ev-grid">
+      <div class="ev-card fade-up">
+        <span class="ev-num">i</span>
+        <h3>Bodas</h3>
+        <p>Diseño integral: bouquet de novia, boutonnières, ceremonia, mesa principal, centros, accesos y rincones fotográficos.</p>
+        <ul>
+          <li>Asesoría de paleta</li>
+          <li>Visita previa al venue</li>
+          <li>Montaje y desmontaje</li>
+        </ul>
+      </div>
+      <div class="ev-card fade-up">
+        <span class="ev-num">ii</span>
+        <h3>XV años</h3>
+        <p>Composiciones que crecen con la noche: arco floral, centros, pasillo y detalles para los recuerdos.</p>
+        <ul>
+          <li>Reunión con festejada</li>
+          <li>Moodboard a medida</li>
+          <li>Coordinación con planner</li>
+        </ul>
+      </div>
+      <div class="ev-card fade-up">
+        <span class="ev-num">iii</span>
+        <h3>Corporativo</h3>
+        <p>Lanzamientos, aperturas, cenas privadas y producciones editoriales. Profesionalismo y discreción.</p>
+        <ul>
+          <li>Facturación inmediata</li>
+          <li>Branding integrado</li>
+          <li>Logística por contrato</li>
+        </ul>
+      </div>
+    </div>
+
+    <a href="#contacto" class="ev-cta">
+      <span>Cotizar mi evento</span>
+      <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    </a>
+  </section>
+
+  <!-- ===== SUSCRIPCIÓN ===== -->
+  <section id="suscripcion" class="suscripcion">
+    <div class="sus-encabezado">
+      <span class="seccion-num">04 — Suscripción</span>
+      <h2 class="seccion-titulo">
+        Flores frescas,<br>
+        <em>siempre</em> que entres a casa.
+      </h2>
+      <p class="sus-intro">Un arreglo nuevo, distinto cada vez, entregado en tu casa u oficina. Tú eliges la frecuencia, nosotros la paleta de la temporada.</p>
+    </div>
+
+    <div class="sus-grid">
+      <div class="sus-plan fade-up">
+        <div class="sus-plan-head">
+          <span class="sus-plan-num">·01</span>
+          <h3>Quincenal</h3>
+        </div>
+        <p class="sus-plan-desc">Un arreglo cada dos semanas. Ideal para mantener viva la casa sin saturarla.</p>
+        <ul>
+          <li>2 entregas al mes</li>
+          <li>Arreglo tamaño M</li>
+          <li>Florero en préstamo el primer mes</li>
+        </ul>
+        <a href="#contacto" class="sus-plan-cta">Suscribirme</a>
+      </div>
+
+      <div class="sus-plan destacado fade-up">
+        <div class="sus-plan-cinta">Más elegido</div>
+        <div class="sus-plan-head">
+          <span class="sus-plan-num">·02</span>
+          <h3>Semanal</h3>
+        </div>
+        <p class="sus-plan-desc">Flor nueva cada semana. Para quien entiende que la rutina también se cuida.</p>
+        <ul>
+          <li>4 entregas al mes</li>
+          <li>Arreglo tamaño M o L</li>
+          <li>Cambio de paleta cada mes</li>
+          <li>Tarjeta firmada del estudio</li>
+        </ul>
+        <a href="#contacto" class="sus-plan-cta">Suscribirme</a>
+      </div>
+
+      <div class="sus-plan fade-up">
+        <div class="sus-plan-head">
+          <span class="sus-plan-num">·03</span>
+          <h3>Mensual</h3>
+        </div>
+        <p class="sus-plan-desc">Una pieza grande, editorial, una vez al mes. Para espacios que la merecen.</p>
+        <ul>
+          <li>1 entrega al mes</li>
+          <li>Arreglo tamaño XL</li>
+          <li>Briefing previo de paleta</li>
+        </ul>
+        <a href="#contacto" class="sus-plan-cta">Suscribirme</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ESTUDIO (Sobre nosotros) ===== -->
+  <section id="estudio" class="estudio">
+    <div class="est-grid">
+      <div class="est-foto">
+        <img src="img/arreglo-bolsa.jpg" alt="Empaque ESSENTIAL">
+        <div class="est-badge">
+          <img src="img/logo.png" alt="ESSENTIAL" class="est-badge-logo">
+          <span>Desde 2024</span>
+        </div>
+      </div>
+
+      <div class="est-texto">
+        <span class="seccion-num">05 — Estudio</span>
+        <h2 class="seccion-titulo">
+          Un estudio pequeño,<br>
+          <em>obsesivo</em> con el detalle.
+        </h2>
+        <p>ESSENTIAL nace de la idea de que regalar flores debería sentirse distinto. No un trámite, no un cliché: un gesto pensado. Trabajamos por encargo, sin producción masiva, sin atajos.</p>
+        <p>Cada arreglo se monta el mismo día del envío. Cada papel se dobla a mano. Cada listón se anuda con calma. Si llega a tus manos algo nuestro, lleva tiempo de alguien adentro.</p>
+
+        <div class="est-numeros">
+          <div class="est-numero">
+            <strong>100%</strong>
+            <span>Diseño de autor</span>
+          </div>
+          <div class="est-numero">
+            <strong>24h</strong>
+            <span>De cosecha a entrega</span>
+          </div>
+          <div class="est-numero">
+            <strong>+50</strong>
+            <span>Variedades en temporada</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACTO ===== -->
+  <section id="contacto" class="contacto">
+    <div class="cont-encabezado">
+      <span class="seccion-num">06 — Contacto</span>
+      <h2 class="seccion-titulo">
+        ¿Listo para<br>
+        <em>diseñar el tuyo</em>?
+      </h2>
+      <p class="cont-intro">Escríbenos. Cuéntanos la ocasión, la persona, la paleta que te imaginas — o solo el sentimiento. De ahí lo construimos juntos.</p>
+    </div>
+
+    <div class="cont-grid">
+      <a href="https://wa.me/[NUMERO]?text=Hola%20ESSENTIAL%2C%20me%20gustar%C3%ADa%20cotizar%20un%20arreglo" class="cont-card cont-wa" target="_blank" rel="noopener">
+        <div class="cont-card-icono">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 .1 5.4.1 12c0 2.1.5 4.2 1.6 6L0 24l6.2-1.6c1.8.9 3.8 1.4 5.8 1.4h.1c6.6 0 11.9-5.4 11.9-12 0-3.2-1.2-6.2-3.5-8.3zM12 21.8c-1.8 0-3.6-.5-5.1-1.4l-.4-.2-3.7 1 1-3.6-.2-.4c-1-1.6-1.5-3.4-1.5-5.3 0-5.5 4.5-9.9 9.9-9.9 2.6 0 5.1 1 7 2.9s2.9 4.4 2.9 7c0 5.5-4.5 9.9-9.9 9.9zm5.5-7.4c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2s-.8 1-1 1.2c-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.7.1-.1.3-.4.5-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4s-1 1-1 2.5 1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+        </div>
+        <span class="cont-card-eyebrow">WhatsApp · Respuesta inmediata</span>
+        <h3>Pedir por WhatsApp</h3>
+        <span class="cont-card-dato">[Tu número aquí]</span>
+        <span class="cont-card-flecha">→</span>
+      </a>
+
+      <a href="https://instagram.com/essentialestudiomx" class="cont-card cont-ig" target="_blank" rel="noopener">
+        <div class="cont-card-icono">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+        </div>
+        <span class="cont-card-eyebrow">Instagram · DM</span>
+        <h3>Mira nuestro feed</h3>
+        <span class="cont-card-dato">@essentialestudiomx</span>
+        <span class="cont-card-flecha">→</span>
+      </a>
+
+      <div class="cont-info">
+        <div class="cont-info-bloque">
+          <span class="cont-info-tit">Estudio</span>
+          <p>[Ciudad / Colonia]<br>Visitas con cita previa</p>
+        </div>
+        <div class="cont-info-bloque">
+          <span class="cont-info-tit">Horarios</span>
+          <p>Lun — Sáb · [10:00 — 19:00]<br>Domingos cerrado</p>
+        </div>
+        <div class="cont-info-bloque">
+          <span class="cont-info-tit">Cobertura</span>
+          <p>Entregas a domicilio en [zona].<br>Eventos en toda la república con cotización previa.</p>
+        </div>
+        <div class="cont-info-bloque">
+          <span class="cont-info-tit">Correo</span>
+          <p>[hola@essentialestudio.mx]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-cont">
+      <div class="footer-marca">
+        <img src="img/logo.png" alt="ESSENTIAL" class="footer-logo">
+        <p class="footer-eslogan">Diseñamos emociones en forma de flores.</p>
+      </div>
+
+      <div class="footer-cols">
+        <div class="footer-col">
+          <span class="footer-col-tit">Navegar</span>
+          <ul>
+            <li><a href="#manifiesto">Manifiesto</a></li>
+            <li><a href="#catalogo">Arreglos</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#suscripcion">Suscripción</a></li>
+            <li><a href="#estudio">Estudio</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <span class="footer-col-tit">Contacto</span>
+          <ul>
+            <li><a href="https://wa.me/[NUMERO]" target="_blank">WhatsApp</a></li>
+            <li><a href="https://instagram.com/essentialestudiomx" target="_blank">Instagram</a></li>
+            <li><a href="mailto:[hola@essentialestudio.mx]">Correo</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <span class="footer-col-tit">Estudio</span>
+          <ul>
+            <li>[Ciudad]</li>
+            <li>Lun — Sáb · [10—19h]</li>
+            <li>Cita previa</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-base">
+      <span>© 2026 ESSENTIAL · estudio floral</span>
+      <span>Hecho con flor, papel y tiempo.</span>
+      <span class="footer-dev">Developed by <a href="https://github.com/m2aq" target="_blank" rel="noopener" class="footer-dev-link">m2aq</a></span>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
